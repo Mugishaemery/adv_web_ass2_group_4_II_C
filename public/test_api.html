@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>API Test</title>
+</head>
+<body>
+    <h2>API Test</h2>
+    <button onclick="testStats()">Test /api/stats</button>
+    <button onclick="testSubmit()">Test Submit</button>
+    <button onclick="testLogin()">Test Login</button>
+    <pre id="result"></pre>
+
+    <script>
+        const BASE = '/umuganda-mvc/api/';
+        
+        async function testStats() {
+            const res = await fetch(BASE + 'stats');
+            const data = await res.json();
+            document.getElementById('result').innerHTML = JSON.stringify(data, null, 2);
+        }
+        
+        async function testSubmit() {
+            const res = await fetch(BASE + 'submit-request', {
+                method: 'POST',
+                headers: {'Content-Type': 'application/json'},
+                body: JSON.stringify({
+                    full_name: 'Test User',
+                    email: 'test@test.com',
+                    phone: '123456789',
+                    category: 1,
+                    title: 'Test Request',
+                    description: 'This is a test',
+                    location: 'Test Location',
+                    priority: 'medium'
+                })
+            });
+            const data = await res.json();
+            document.getElementById('result').innerHTML = JSON.stringify(data, null, 2);
+        }
+        
+        async function testLogin() {
+            const res = await fetch(BASE + 'admin-login', {
+                method: 'POST',
+                headers: {'Content-Type': 'application/json'},
+                body: JSON.stringify({
+                    username: 'admin',
+                    password: 'admin'
+                })
+            });
+            const data = await res.json();
+            document.getElementById('result').innerHTML = JSON.stringify(data, null, 2);
+        }
+    </script>
+</body>
+</html>

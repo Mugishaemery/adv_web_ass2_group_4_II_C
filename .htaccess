@@ -1,0 +1,26 @@
+# ============================================
+# UMUGANDA MVC - Root .htaccess
+# Redirects all requests to the public folder
+# ============================================
+
+RewriteEngine On
+
+# Redirect all requests to the public folder
+RewriteCond %{REQUEST_URI} !^/umuganda-mvc/public/
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ /umuganda-mvc/public/$1 [L]
+
+# If the request is for the root, redirect to public
+RewriteCond %{REQUEST_URI} ^/umuganda-mvc/?$
+RewriteRule ^(.*)$ /umuganda-mvc/public/ [L]
+
+# Prevent directory listing
+Options -Indexes
+
+# Set default charset
+AddDefaultCharset UTF-8
+
+# Custom error pages (optional)
+ErrorDocument 404 /umuganda-mvc/public/index.php
+ErrorDocument 403 /umuganda-mvc/public/index.php
