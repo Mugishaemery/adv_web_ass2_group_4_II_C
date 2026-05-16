@@ -189,11 +189,11 @@ http://localhost/umuganda-mvc/
 ## 👥 Team Members and Roles
 
 Name                             Reg numbers                         	Role	
-Korvah                            25/                         	    Manager 
+Blessing Pleasant Korvah          25/24766                         	    Manager 
 MIZERO JOY Octavier               25/                          	Frontend Developer 
 ISHIMWE Mugisha Emery             25/32638                      Backend Developer 
 Uwase Sagamba jean arsen          25/27163                      Database Administrator	
-Olivier K.                        25/                          	Quality Assurance / Tester
+Simon                        25/                          	Quality Assurance / Tester
 NIYONKURU Promesse                25/                               Deployer
 
 
