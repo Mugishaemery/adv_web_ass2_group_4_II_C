@@ -171,14 +171,14 @@ What Each Role Can Do
 
 Feature             	Admin	Officer
 View Dashboard         	✅  	✅
-View All Requests    	✅  	✅
-Update Request Status	✅  	✅
-Add Notes to Requests	✅  	✅
-View Reports         	✅  	✅
-Print Reports       	✅  	✅
-User Management     	✅  	❌
-Add/Remove Officers  	✅  	❌
-Change Any Password  	✅  	❌
+View All Requests     	✅  	✅
+Update Request Status	  ✅  	✅
+Add Notes to Requests 	✅  	✅
+View Reports          	✅  	✅
+Print Reports         	✅  	✅
+User Management       	✅  	❌
+Add/Remove Officers    	✅  	❌
+Change Any Password   	✅  	❌
 
 ## 🌐 Live Link
 
@@ -189,9 +189,9 @@ http://localhost/umuganda-mvc/
 ## 👥 Team Members and Roles
 
 Name                             Reg numbers                         	Role	
-Korvah                            25/                         	Lead Developer / System Architect	
-MIZERO JOY Octavier               25/                          	Frontend Developer / UI/UX Designer
-ISHIMWE Mugisha Emery             25/32638                      Backend Developer / API Specialist
+Korvah                            25/                         	    Manager 
+MIZERO JOY Octavier               25/                          	Frontend Developer 
+ISHIMWE Mugisha Emery             25/32638                      Backend Developer 
 Uwase Sagamba jean arsen          25/27163                      Database Administrator	
 Olivier K.                        25/                          	Quality Assurance / Tester
 NIYONKURU Promesse                25/                               Deployer
