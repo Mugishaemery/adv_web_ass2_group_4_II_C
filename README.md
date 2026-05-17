@@ -190,11 +190,11 @@ http://localhost/umuganda-mvc/
 
 Name                             Reg numbers                         	Role	
 Blessing Pleasant Korvah          25/24766                      Project Manager 
-MIZERO JOY Octavier               25/                          	Frontend Developer 
+MIZERO JOY Octavier               25/31109                      Frontend Developer 
 ISHIMWE Mugisha Emery             25/32638                      Backend Developer 
 Uwase Sagamba jean arsen          25/27163                      Database Administrator	
-Simon                        25/                          	Quality Assurance / Tester
-NIYONKURU Promesse                25/                               Deployer
+Christine Keji Simon Tongun       25/33094                   	Quality Assurance / Tester
+NIYONKURU Promesse                25/30601                            Deployer
 
 
 ## 📁 Project Structure
